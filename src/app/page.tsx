@@ -8,7 +8,7 @@ import Tourism from "@/components/Tourism";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { Star, ShieldCheck, Clock, Users, Coffee, Utensils, Camera, Heart } from "lucide-react";
+import { ShieldCheck, Users, Coffee, Utensils, Camera, Heart } from "lucide-react";
 
 import FloatingActions from "@/components/FloatingActions";
 
@@ -38,7 +38,7 @@ export default function Home() {
                   <span className="text-gold-500 italic">Tells a Story</span>
                 </h2>
                 <p className="text-lg text-cream/70 mb-8 leading-relaxed font-light">
-                  GrandVista Banquets isn't just a venue; it's a canvas for your most precious memories. From the golden hour glow on our grand exterior to the intricate floral mandaps, we craft experiences that resonate for a lifetime.
+                  GrandVista Banquets isn&apos;t just a venue; it&apos;s a canvas for your most precious memories. From the golden hour glow on our grand exterior to the intricate floral mandaps, we craft experiences that resonate for a lifetime.
                 </p>
                 <div className="flex gap-12">
                   <div>
@@ -158,7 +158,7 @@ export default function Home() {
             >
               <div className="space-y-12 relative z-10">
                 <p className="text-3xl md:text-5xl font-serif italic mb-12">
-                    "GrandVista didn't just host our wedding; <br className="hidden md:block" /> they crafted a fairytale."
+                    &quot;GrandVista didn&apos;t just host our wedding; <br className="hidden md:block" /> they crafted a fairytale.&quot;
                 </p>
                 <Link href="/testimonials" className="bg-gold-500 text-black px-12 py-4 rounded-full font-bold uppercase tracking-widest text-[10px] hover:bg-gold-400 transition-all shadow-xl shadow-gold-500/20">
                     Read Real Stories

@@ -59,7 +59,7 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-serif font-bold mb-12 text-center text-gold-500">Gourmet Catering</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            {cateringPackages.map((pkg, i) => (
+            {cateringPackages.map((pkg) => (
               <motion.div
                 key={pkg.name}
                 initial={{ opacity: 0, scale: 0.95 }}
@@ -100,7 +100,7 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-serif font-bold mb-12 text-center text-gold-500">Decor Themes</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            {decorThemes.map((theme, i) => (
+            {decorThemes.map((theme) => (
               <motion.div
                 key={theme.name}
                 initial={{ opacity: 0, y: 30 }}

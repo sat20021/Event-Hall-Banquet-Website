@@ -35,7 +35,7 @@ const Tourism = () => {
             <span className="text-gold-500 font-bold uppercase tracking-[0.3em] text-xs mb-4 block">Curated Experiences</span>
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6 leading-tight">Beyond the Banquet Hall</h2>
             <p className="text-cream/60 leading-relaxed text-lg">
-              GrandVista is your gateway to the city's finest treasures. We offer exclusive guided tours and private concierge services to make your destination event truly legendary.
+              GrandVista is your gateway to the city&apos;s finest treasures. We offer exclusive guided tours and private concierge services to make your destination event truly legendary.
             </p>
           </div>
           <button className="flex items-center gap-2 text-gold-500 font-bold uppercase tracking-widest text-sm border-b border-gold-500/30 pb-2 hover:border-gold-500 transition-all">

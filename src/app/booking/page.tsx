@@ -3,17 +3,10 @@
 import Navbar from "@/components/Navbar";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { Calendar as CalendarIcon, Users, MapPin, CalendarDays, ArrowRight } from "lucide-react";
+import { Users, CalendarDays, ArrowRight } from "lucide-react";
 
 export default function BookingPage() {
   const [step, setStep] = useState(1);
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    eventDate: "",
-    guests: "100-200",
-    eventType: "Wedding",
-  });
 
   const nextStep = () => setStep(step + 1);
   const prevStep = () => setStep(step - 1);
@@ -196,7 +189,7 @@ export default function BookingPage() {
   );
 }
 
-function CheckIcon(props: any) {
+function CheckIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

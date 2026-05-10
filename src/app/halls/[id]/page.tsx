@@ -4,7 +4,7 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { Users, Maximize, MapPin, Calendar, Check, Download, Play } from "lucide-react";
+import { Users, Maximize, Calendar, Check, Download, Play } from "lucide-react";
 import { useParams } from "next/navigation";
 
 const venues = {

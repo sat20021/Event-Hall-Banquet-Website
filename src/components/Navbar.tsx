@@ -49,7 +49,7 @@ const Navbar = () => {
 
         {/* Desktop Links */}
         <div className="hidden lg:flex items-center gap-10">
-          {navLinks.map((link, i) => (
+          {navLinks.map((link) => (
             <Link
               key={link.name}
               href={link.href}

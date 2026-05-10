@@ -110,7 +110,7 @@ const InquiryForm = () => {
               <div className="space-y-8">
                 <div className="text-center mb-12">
                   <h2 className="text-4xl font-serif font-bold text-white mb-4">Personal Details</h2>
-                  <p className="text-cream/40 italic">Tell us who we'll be crafting this experience for.</p>
+                  <p className="text-cream/40 italic">Tell us who we&apos;ll be crafting this experience for.</p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -239,7 +239,7 @@ const InquiryForm = () => {
               <div className="space-y-8">
                 <div className="text-center mb-12">
                   <h2 className="text-4xl font-serif font-bold text-white mb-4">Final Vision</h2>
-                  <p className="text-cream/40 italic">Any special requests or details you'd like to share?</p>
+                  <p className="text-cream/40 italic">Any special requests or details you&apos;d like to share?</p>
                 </div>
 
                 <div className="space-y-2">

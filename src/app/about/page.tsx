@@ -71,7 +71,7 @@ export default function AboutPage() {
                     GrandVista Banquets was born from a vision to create a space where modern luxury meets the timeless heritage of India. What started as a family estate in the heart of the valley has evolved into a global destination for elite celebrations.
                   </p>
                   <p>
-                    Our commitment to 'Atithi Devo Bhava' (Guest is God) is unwavering. We don't just host events; we curate legacies. From the meticulous carving of our Darbar halls to the shahi flavors of our kitchens, our standards reflect the pinnacle of Indian royalty.
+                    Our commitment to &apos;Atithi Devo Bhava&apos; (Guest is God) is unwavering. We don&apos;t just host events; we curate legacies. From the meticulous carving of our Darbar halls to the shahi flavors of our kitchens, our standards reflect the pinnacle of Indian royalty.
                   </p>
                 </div>
                 <div className="grid grid-cols-2 gap-8 pt-8 border-t border-white/10">
@@ -133,7 +133,7 @@ export default function AboutPage() {
           </div>
           <h2 className="text-4xl font-serif font-bold mb-8">Green Luxury Initiative</h2>
           <p className="text-cream/60 text-lg leading-relaxed mb-12">
-            We believe that grand celebrations shouldn't come at the cost of the environment. From solar-powered ballrooms to locally sourced artisanal ingredients, GrandVista is redefining what it means to be a "sustainable luxury" venue.
+            We believe that grand celebrations shouldn&apos;t come at the cost of the environment. From solar-powered ballrooms to locally sourced artisanal ingredients, GrandVista is redefining what it means to be a &quot;sustainable luxury&quot; venue.
           </p>
           <button className="bg-gold-500 text-black px-12 py-4 rounded-full font-bold uppercase tracking-widest text-[10px] hover:bg-gold-400 transition-all">
             Read Our Eco-Charter

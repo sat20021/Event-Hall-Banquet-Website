@@ -73,7 +73,7 @@ export default function TestimonialsPage() {
                       {[1, 2, 3, 4, 5].map(s => <Star key={s} size={16} className="text-gold-500" fill="currentColor" />)}
                     </div>
                     <p className="text-2xl md:text-3xl font-serif italic leading-relaxed text-white/90">
-                      "{story.text}"
+                      &quot;{story.text}&quot;
                     </p>
                     <div>
                       <h3 className="text-xl font-serif font-bold text-gold-500">{story.name}</h3>
